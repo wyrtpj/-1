@@ -1,0 +1,20 @@
+start
+new bank string 
+set bank "Т-bank"
+new name string 
+set name "Maria_Titova"
+new num string 
+set num "1234_4567_7890_0123"
+new cvv number 
+set cvv 123
+new date string 
+set date  "09/2025"
+log string " _______________________________"
+log string "| " >> bank >> "                |"
+log string "| " >> name >> "                |"
+log string "| " >> name >> "                |"
+log string "| " >> num >> "                 |"
+log string "| " >> cvv >> "                 |"
+log string "| " >> date >> "                |"
+log string " _______________________________"
+finish
