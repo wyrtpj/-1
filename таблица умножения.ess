@@ -1,0 +1,11 @@
+start
+new a number
+set a 5
+loop umno (i<11)
+  new i
+  set i 1
+  log "5*" >> i >> "=" << number
+  set number number+5
+  set i i+1
+end umno
+finish
